@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+.todo {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(213, 226, 238);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.add {
+  height: 180px;
+  width: 600px;
+  /* background-color: rgb(119, 212, 204); */
+  background-image: linear-gradient(
+    to right top,
+    #1b0130,
+    #42105b,
+    #731986,
+    #ac1caf,
+    #eb12d5
+  );
+  border-radius: 16px;
+  margin-top: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.todo-header {
+  border-bottom: 3px solid rgb(223, 79, 242);
+  text-align: center;
+}
+
+.task-number {
+  font-family: "Lobster", cursive;
+  font-size: 15px;
+}
+
+.task-head {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+}
+
+.todo-list {
+  border-bottom: 1px solid rgb(102, 65, 65);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+}
+
+.description {
+  margin-top: -15px;
+  border-bottom: 3px solid rgb(223, 79, 242);
+}
+
+.add-input {
+}
+
+.add-task-name {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+.add-task-description {
+  width: 100%;
+  margin-top: 10px;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.add-btn {
+  width: 100px;
+  background-color: blueviolet;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 16px;
+}
+
+.cancel-btn {
+  width: 100px;
+  background-color: rgb(203, 67, 67);
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 16px;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 4px; /* Set the width of the scrollbar */
+  height: 150px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #efc8c8; /* Set the background color of the scrollbar track */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #31bbdd; /* Set the color of the scrollbar thumb */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Set the color of the scrollbar thumb on hover */
+}

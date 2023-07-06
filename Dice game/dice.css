@@ -1,0 +1,43 @@
+#dice {
+  height: 140px;
+  width: 140px;
+  background-color: tomato;
+  border-radius: 16px;
+  margin: 50px auto;
+}
+
+.btn {
+    margin-left: 44%;
+  padding: 18px 38px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  border-radius: 14px;
+}
+
+.btn:hover {
+    background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.animate-dice {
+    animation-name: dice;
+    animation-duration: 1s;
+}
+
+@keyframes dice {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+#number {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+}

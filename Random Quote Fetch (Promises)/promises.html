@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quote Fetching</title>
+    <style>
+      * {
+        background-color: rgb(0, 0, 0);
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #quotearea {
+        height: 200px;
+        width: 400px;
+        /* background-color: aliceblue; */
+        color: white;
+        background-image: linear-gradient(
+          to right top,
+          #2b0537,
+          #4b095f,
+          #6d0c8b,
+          #910fba,
+          #b612eb
+        );
+        text-align: center;
+        margin-top: 25px;
+        padding: 16px;
+        font-size: 25px;
+        border-radius: 16px;
+      }
+
+      .button {
+        color: white;
+        background-color: black;
+        padding: 18px 38px;
+        font-size: 18px;
+        border-radius: 16px;
+        margin-top: 10px;
+        display: flex;
+        margin-left: 45%;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background: #ff96ad;
+        box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad,
+          0 0 200px #ff96ad;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="quotearea"></div>
+    </div>
+    <button class="button" onclick="quote()">Click Me</button>
+
+    <script src="./promises.js"></script>
+  </body>
+</html>
