@@ -1,3 +1,5 @@
+Fallow the order to understand properly
+
 1st: DOM
 2nd: Cube app
 3rd: Math addition 
